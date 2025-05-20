@@ -1652,31 +1652,6 @@ input, select, textarea {
 		to{opacity: 1;}
 	}
 
-
-/* Features */
-
-	#features {
-		background: #353D40 url("images/bg02.jpg");
-		border-bottom: solid 1px #272e31;
-		padding: 45px 0 45px 0;
-		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
-		color: #a0a8ab;
-	}
-
-		#features h2 {
-			font-size: 1.25em;
-			color: #fff;
-			margin: 0 0 0.25em 0;
-		}
-
-		#features a {
-			color: #e0e8eb;
-		}
-
-		#features strong {
-			color: #fff;
-		}
-
 /* Content */
 
 	#content {
@@ -1940,20 +1915,22 @@ input, select, textarea {
 	.feedback{
 		padding: 30px 0;
 		font-family: 'Quicksand', 'Open Sans', sans-serif;
-		text-align: center;
 	}
 
 	.feedback-container{
-		width: 300px;
-		height: 300px;
-		background-color: #fff;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 1200px;
+		height: 400px;
 		border-radius: 16px;
 		padding: 20px;
 	}
 
 	.feedback-input{
 		resize: none;
-		width: 40%;
+		width: 60%;
 		height: 240px;
 		border-radius: 8px;
 	}
