@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>K.O.A Coffee</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+						<div class="row">
+
+								<!-- Logo -->
+								 	<div id = "logo">
+										<h1><a href="index.html">K.O.A Coffee</a></h1>
+									</div>
+
+								<!-- Nav -->
+									<nav id="nav">
+										<a href="index.html">Homepage</a>
+										<a href="menu.html">Menu</a>
+										<a href="aboutUs.html">About Us</a>
+										<a href="bookingSystem.html">Booking System</a>
+										<a href="contactUs.html">Contact Us</a>
+									</nav>
+
+						</div>
+					</div>	
+				</section>
+				
+
+				<!-- Slideshow container -->
+				<section id="slideshow container">
+					<div class = "slideshow-container">
+
+						<div class = "mySlides fade">
+							<img src="images/coffee-shop.jpg" alt = "cafe">
+							<div class="text">Our Cafe</div>
+						</div>
+						
+						<div class = "mySlides fade">
+							<img src="images/coffee.jpg" alt = "coffee">
+							<div class="text">Coffee</div>
+						</div>
+
+						<div class = "mySlides fade">
+							<img src="images/dessert.jpg" alt = "dessert">
+							<div class="text">Dessert</div>
+						</div>
+						
+						<a class ="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class ="next" onclick="plusSlides(1)">&#10095</a>
+
+					</div>
+					<br>
+
+					<div class = "dot-container">
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentSlide(3)"></span>
+					</div> 
+
+				</section>
+
+			<!-- Content -->
+				<section id="content">
+					<div class="container">
+							<div class="col-4 col-12-medium">
+
+								<!-- Intro -->
+								<section class = "intro">
+
+										<div class = "intro-text">
+											<h2>Welcome to K.O.A Cafe</h2>
+											<hr class = "separate-line">
+											<p>Our cafe is located in the heart of Melbourne's CBD, dedicated to providing customers with satisfactory service
+											and Japanese-style food and desserts for them to enjoy. Our cafe is always open to customers and offers a comfortable place to rest.
+											In addition, our cafe is the best choice for dates and parties.</p>
+										</div>
+
+										<div class = "intro-img">
+											<img src = "images/ice-cream-3611698_1280.jpg" alt="Japanese Desserts">
+										</div>
+								</section>
+								
+
+								<!-- Menu -->
+								<section class = "menu">
+									<div class="container">
+
+										<header class= "menu-title" >
+											<h2>Menu</h2>
+										</header>
+
+											<h3 class="menu-subtitle">Explore Our Coffe, Food and Dessert</h3>
+
+										<div class="row gtr-150">
+											<div class="col-4 col-12-medium">
+												<span><img src="images/menu_coffee.jpg" alt="menu coffee" class="image-fit"/></span>
+												<h3 class = "subheadings">Coffee</h3>
+												<p>Selected single-origin beans, made on the spot, all kinds of coffee are available for you to choose from.</p>
+											</div>
+
+											<div class="col-4 col-12-medium">
+												<span><img src="images/menu_food.jpg" alt="menu food" class="image-fit"/></span>
+												<h3 class = "subheadings">Food</h3>
+												<p>A variety of delicious dishes can fill your taste buds at any time.</p>
+											</div>
+
+											<div class="col-4 col-12-medium">
+												<span><img src="images/menu_dessert.jpg" alt="menu dessert" class="image-fit"/></span>
+												<h3 class = "subheadings">Dessert</h3>
+												<p>Homemade Japanese desserts allow you to explore new flavors.</p>
+											</div>
+											
+											<ul class="actions-special">
+													<li><a href="menu.html">More</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							
+
+								<!-- About Us -->
+								<section class = "aboutUs">
+									<h2 class = "aboutUs-title">About Us</h2>
+									<div class = "timeline">
+											<div class = "aboutUs-container left">
+												<div class = "aboutUs-content">
+													<h2 class = "header-right">2025</h2>
+													<p>Our cafe has been open here for over a year. We have tried out various new desserts and foods, 
+														and we have also established a loyal audience group aged 18 to 45.</p>
+												</div>
+											</div>
+											<div class = "aboutUs-container right">
+												<diiv  class = "aboutUs-content">
+													<h2>2024</h2>
+													<p>This year marks the first year of our cafe opening. We have launched a series of coffee foods and desserts. 
+														Meanwhile, we chose the CBD of Melbourne to provide customers with convenient access to visit our cafe.</p>
+												</diiv>
+											</div>
+										</div>
+									</div>
+								</section>
+
+
+								<!-- User rating -->
+								<section class = "user-rating">
+									<!-- Star rating -->
+									<h2 class = "rating-title">User Rating</h2>
+									<div class = "rating-container">
+										<div class = "card">
+											<h3>Please Give Us Feedback to Improve</h3></br>
+											<span onClick = "gfg(1)" class = "star">&#9733;</span>
+											<span onClick = "gfg(2)" class = "star">&#9733;</span>
+											<span onClick = "gfg(3)" class = "star">&#9733;</span>
+											<span onClick = "gfg(4)" class = "star">&#9733;</span>
+											<span onClick = "gfg(5)" class = "star">&#9733;</span>
+											<h3 id = "output">Rating is: 0/5</h3>
+										</div>
+									</div>
+
+									<!-- Write A Comment-->
+									<div class = "feedback">
+										<div clas = "feedback-container">
+											<h3>Writing a Comment</h3>
+											<textarea class = "feedback-input" placeholder="Write your comment here..."></textarea></br>
+											<button class="save-button">Submit</button>
+										</div>
+									</div>
+								</section>
+
+						</div>
+					</div>
+				</section>
+
+				
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<div class="row">
+
+							<div class = "footer-container">
+
+									<div class = "footer-column">
+										<h2>Contact</h2>
+										<p>Address: 456 KOC Street, Carlton East VIC 3156, Australia</p>
+										<p>Phone: (03) 9964 1867</p>
+										<p>Email: koacoffee@gmail.com</p>
+									</div>
+
+									<div class = "footer-column">
+										<h2>Navigation</h2>
+										<ul>
+											<li><a href="index.html">Homepage</a></li>
+											<li><a href="menu.html">Menu</a></li>
+											<li><a href="aboutUs.html">About Us</a></li>
+											<li><a href="bookingSystem.html">Booking System</a></li>
+											<li><a href="contactUs.html">Contact Us</a></li>
+										</ul>
+									</div>
+
+									<div class = "footer-column">
+										<h2>Follow Us</h2>
+
+										<div class = "social">
+											<a href="https://x.com/">
+											<img src="images/Logos.png", alt="twitter">
+											</a>
+
+											<a href="https://www.instagram.com/">
+											<img src="images/instagram.png", alt="twitter">
+											</a>
+
+											<a href="https://www.facebook.com/">
+											<img src="images/facebook.png", alt="facebook">
+											</a>
+										</div>
+
+										<p><a href="">Privacy Policy</a></p>	
+										<p><a href="">Terms of Service</a></p>	
+									</div>	
+								
+
+							</div>			
+						</div>
+					</div>
+				</section>
+
+			<!-- Copyright -->
+				<div id="copyright">
+					<div class = "copyright-container">
+						<div class = "copyright-left">©2025 K.0.A Coffee</div>
+						<div class = "copyright-right">Designed by Yikun Cai(33930554)</div>
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
