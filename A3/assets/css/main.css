@@ -1712,7 +1712,7 @@ input, select, textarea {
 
 	/* Menu */
 	.menu{
-		padding: 40px 0;
+		padding: 60px 0;
 		font-family: 'Quicksand', 'Open Sans', sans-serif;
 	}
 
@@ -1764,7 +1764,7 @@ input, select, textarea {
 
 	/* About Us */
 	.aboutUs{
-		padding: 40px 0;
+		padding: 60px 0;
 		font-family: 'Quicksand', 'Open Sans', sans-serif;
 	}
 
@@ -1858,7 +1858,7 @@ input, select, textarea {
 	/* User rating */
 	.user-rating{
 		background: #f7f7f7;
-		padding: 40px 0;
+		padding: 60px 0;
 		font-family: 'Quicksand', 'Open Sans', sans-serif;
 	
 	}
